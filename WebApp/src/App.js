@@ -1,18 +1,23 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import "./App.css";
 import { AppProvider } from "./context/AppContext";
 import Budget from "./components/Budget";
 import ExpenseTotal from "./components/ExpenseTotal";
 import ExpenseList from "./components/ExpenseList";
 import AddExpenseForm from "./components/AddExpenseForm";
 import RemainingBudget from "./components/Remaining";
+import Navbar from "./components/Navbar";
+import Welcome from "./components/Welcome";
 
 const App = () => {
   return (
     <AppProvider>
+      <Navbar />
       <div className="container">
-        <h1 className="mt-3">Budget Buddy</h1>
+        <Welcome />
+        <h1 className="mt-3 fw-normal">Budget Buddy Demo</h1>
         <div className="row mt-3">
           <div className="col-sm">
             <Budget />

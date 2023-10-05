@@ -15,8 +15,8 @@ const App = () => {
   return (
     <AppProvider>
       <Navbar />
+      <Welcome />
       <div className="container">
-        <Welcome />
         <h1 className="mt-3 fw-normal">Budget Buddy Demo</h1>
         <div className="row mt-3">
           <div className="col-sm">

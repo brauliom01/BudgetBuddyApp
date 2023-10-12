@@ -21,11 +21,7 @@ const App = () => {
       <Navbar />
       <Welcome />
       <div className="container">
-<<<<<<< HEAD
-<<<<<<< Updated upstream
         <Welcome />
-=======
->>>>>>> 8f1886e5be086cde681c03a037ab34abc9bf4731
         <h1 className="mt-3 fw-normal">Budget Buddy Demo</h1>
 =======
         <h1 className="mt-8">Budget Buddy</h1>

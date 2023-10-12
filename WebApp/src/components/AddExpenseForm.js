@@ -53,7 +53,7 @@ const AddExpenseForm = (props) => {
       </div>
       <div class="row mt-3">
         <div class="col-sm">
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" class="btn btn-secondary">
             Save
           </button>
         </div>

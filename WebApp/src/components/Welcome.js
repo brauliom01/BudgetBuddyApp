@@ -4,9 +4,6 @@ import "./Welcome.css"; // Import your CSS file for styling if necessary
 const Welcome = () => {
   return (
     <div className="cover-page">
-      <header>
-        <nav>{/* Add your navigation links here */}</nav>
-      </header>
       <main>
         <div className="cover-content">
           <h1 className="d-flex justify-content-center">Budget Buddy</h1>

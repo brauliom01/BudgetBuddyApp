@@ -9,7 +9,7 @@ html {
 
 /* Define background styles */
 .cover-page {
-  background-image: url(""); /* Replace with your background image */
+  background-image: url("../assets/background.jpg"); /* Replace with your background image */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -50,6 +50,7 @@ nav a {
 
 /* Main content styles */
 .cover-content {
+  margin-top: 90px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -67,6 +68,7 @@ h1 {
 }
 
 p {
+  margin-top: 20px;
   font-size: 18px;
   line-height: 1.6;
 }

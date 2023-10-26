@@ -8,12 +8,8 @@ import ExpenseTotal from "./components/ExpenseTotal";
 import ExpenseList from "./components/ExpenseList";
 import AddExpenseForm from "./components/AddExpenseForm";
 import RemainingBudget from "./components/Remaining";
-<<<<<<< Updated upstream
 import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
-=======
-import Blogbutton from "./components/Blogbutton";
->>>>>>> Stashed changes
 
 const App = () => {
   return (

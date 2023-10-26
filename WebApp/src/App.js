@@ -9,6 +9,9 @@ import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
 import Home from "./Home.js";
 import Demo from "./pages/demo";
+import Blog from "./pages/Blog";
+import About from "./pages/About";
+
 const App = () => {
   return (
     <AppProvider>
@@ -16,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/demo" element={<Demo />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
     </AppProvider>

@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-wobble">
         <div className="container justify-content-center">
           <a className="navbar-brand" href="#">
             Budget Buddy
@@ -26,18 +26,18 @@ const Navbar = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Chat Bot
+                <a className="nav-link" href="/demo">
+                  Demo
                 </a>
               </li>
             </ul>

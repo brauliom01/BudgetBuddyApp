@@ -18,7 +18,7 @@ const About = () => {
             </p>
           </div>
         </main>
-        <footer>{/* Add footer content or links here */}</footer>
+        <footer>{/*TODO: ADD Footer */}</footer>
       </div>
     </>
   );

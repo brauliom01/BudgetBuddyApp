@@ -21,8 +21,21 @@ const Blog = () => {
 
         <h1 className="mt-3 fw-normal">Test blog post 10/9/2024</h1>
         <figure className="text-center">
-          <blockquote className="blockquote">
-            <p>Eliminate Your Debt. ...</p>
+        <h1 className="d-flex justify-content-center">How to save money</h1>
+          <blockquote className="d-flex justify-content-center form-control z-depth-1 mb-4 pink-textarea active-pink-textarea-2">
+            <p>Use money as a tool, not a goal.
+            Before you begin planning, think about what you want to accomplish with your money. 
+            Do you want to travel, start your own business, or champion an important social cause? 
+            If those are priorities in your life, be sure to factor them into the equation.
+            </p>
+            <p>You are your greatest asset.
+            At your age, your income potential, 
+            the amount of money you will earn over the next 20 to 30 years, 
+            is most likely your greatest asset. To protect this asset, 
+            make sure you have good health, disability, and life insurance policies, all of which should be relatively inexpensive given your youth.
+
+            </p>
+
             <p>Set Savings Goals. ...</p>
             <p>Pay Yourself First. ...</p>
             <p>Stop Smoking. ...</p>

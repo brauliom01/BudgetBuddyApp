@@ -5,11 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { AppProvider } from "./context/AppContext";
 
-import Navbar from "./components/Navbar";
-import Welcome from "./components/Welcome";
 import Home from "./Home.js";
 import Demo from "./pages/demo";
-import Blog from "./pages/Blog";
 import About from "./pages/About";
 
 const App = () => {

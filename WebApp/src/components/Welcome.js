@@ -11,7 +11,7 @@ const Welcome = () => {
             Everyday, users fall victim to not having enough money to cover a
             financial cost. Whether it’s for tuition or credit card bills,
             saving money is an important skill that everyone should develop.
-            That’s why we created “Insert App name” here. Our goal is to help
+            That’s why we created Budget Buddy. Our goal is to help
             users manage their money more efficiently while educating them
             financially.
           </p>
